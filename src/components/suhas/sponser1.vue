@@ -1,5 +1,5 @@
 <template>
-    <div class="cf">
+    <div id="sponsors" class="cf mp16">
      <HeadingText name="Sponsors"/>
     </div>
    <div class="box-cont">

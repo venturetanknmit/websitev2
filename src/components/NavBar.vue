@@ -10,10 +10,12 @@
         
         <!-- Navbar Center start -->
         <div class="rf">
-            <a href="#about" class="navLink mp8">About</a>
-            <a href="#events" class="navLink mp8">Events</a>
-            <a href="#timeline" class="navLink mp8">Timeline</a>
-            <a href="#sponsors" class="navLink mp8">Sponsors</a>
+            <a href="#about" class="navLink mp8">ABOUT</a>
+            <a href="#prizes" class="navLink mp8">PRIZES</a>
+            <a href="#timeline" class="navLink mp8">TIMELINE</a>
+            <a href="#sponsors" class="navLink mp8">SPONSORS</a>
+            <!-- <a href="#faqs" class="navLink mp8">FAQs</a> -->
+            <a href="#contactus" class="navLink mp8">CONTACT US</a>
         </div>
         <!-- Navbar Center end -->
         
@@ -38,7 +40,7 @@
             <!-- Trying hamburger library -->
             <Slide width="400px" class="">
             <a id="home" href="#">
-                <span>Home</span>
+                <span>HOME</span>
             </a>
             </Slide>
         </div>
@@ -55,12 +57,12 @@
 
         <!-- Navbar Left end -->
         <Menu>
-        <a href="#about" class="navLink mp8">About</a>
-            <a href="#events" class="navLink mp8">Events</a>
-            <a href="#timeline" class="navLink mp8">Timeline</a>
-            <a href="#sponsors" class="navLink mp8">Sponsors</a>
-            <a href="#faqs" class="navLink mp8">FAQs</a>
-            <a href="#contactus" class="navLink mp8">Contact us</a>
+        <a href="#about" class="navLink mp8">ABOUT</a>
+            <a href="#prizes" class="navLink mp8">PRIZES</a>
+            <a href="#timeline" class="navLink mp8">TIMELINE</a>
+            <a href="#sponsors" class="navLink mp8">SPONSORS</a>
+            <!-- <a href="#faqs" class="navLink mp8">FAQs</a> -->
+            <a href="#contactus" class="navLink mp8">CONTACT US</a>
         </Menu>
 
     </div>
@@ -89,6 +91,9 @@ export default {
 </script>
 
 <style>
+.navDesktop{
+    box-shadow: 0px 0px 4px 1px var(--blueDark);
+}
 .logoSize{
     height: 32px;
 }
@@ -99,14 +104,15 @@ export default {
 
 .bm-burger-button {
       position: absolute;
-      width: 32px;
+      width: 30px;
       height: 24px;
-      left: 32px;
-      top: 24px !important;
+      left: 16px;
+      top: 18px !important;
       cursor: pointer;
+
     }
     .bm-burger-bars {
-      background-color: var(--logoPri) !important;
+      background-color: var(--blueDark) !important;
     }
     .line-style {
       position: absolute;
@@ -134,7 +140,7 @@ export default {
       z-index: 1000; /* Stay on top */
       top: 0;
       left: 0;
-      background-color: var(--logoPri) !important; 
+      background-color: var(--blueDark) !important; 
       overflow-x: hidden; /* Disable horizontal scroll */
       padding-top: 60px; /* Place content 60px from the top */
       transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/
@@ -197,7 +203,7 @@ export default {
     height: 32px;
 }
 .navLink:hover{
-    color: var(--logoPurple);
+    color: var(--logoPri);
 }
 .navSticky{
     position: sticky;

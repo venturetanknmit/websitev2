@@ -1,39 +1,40 @@
 <template>
-   <div class=" main cf">
-    <div class="rf w64">
-
-      <div class="picWrapper">
-        <img class="pic mp8" src="./aboutusBg.jpg" alt="Loading...">
-      </div>
-
-    <!-- <div class=""> -->
-      <div class="content mp8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deleniti qui, modi exercitationem alias, ratione vel aperiam maiores mollitia aut officiis cupiditate hic. Ex consequuntur laborum optio odit molestiae enim?
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium praesentium ea consequatur magnam cum illo eum voluptatem omnis, corporis ad assumenda aliquam cupiditate earum saepe dicta est perferendis vitae quasi.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. In, quo officia unde atque eos similique at repudiandae temporibus esse necessitatibus quia quod? Minus fugiat iusto nobis ratione obcaecati. Temporibus, corporis?
-      </div>
-    <!-- </div> -->
+  <div id="about" class="cf mp8">
+    <HeadingText name="About"/>
+    <div class="rf mp8 ">
+      <div class="">
+        <!-- <img class="mp8"  src="./aboutusBg.png" alt=""> -->
     </div>
-   </div>
+
+    <div class="mp8 w64">
+      Venture Tank is an initiative taken from the Computer Science Department to bring out ideas and real life implementation of ideas that students have. It is a multi-disciplinary event. All branches are invited to participate and show case their ideas and talents. They can turn their ideas into start-ups.
+</div>
+</div>
+</div>
 </template>
 
 <script>
+import HeadingText from '../HeadingText.vue';
+
   
 export default {
-  name: 'AboutusVue'
+    name: "AboutusVue",
+    components: { HeadingText }
 }
 
 </script>
 
 
 <style scoped>
-.w64{
-  width: 80%;
-}
 .pic{
-  width: 40vw !important;
-  }
-
+  width: 300px !important;
+}
+.w64{
+  width: 64%;
+}
+.h88{
+  height: 88vh;
+}
   @media (max-width: 720px){
   .pic{
     display: none;

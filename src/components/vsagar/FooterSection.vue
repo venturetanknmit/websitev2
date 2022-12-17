@@ -1,8 +1,8 @@
 <template>
 
-  <footer>
+  <footer id="contactus" class="mpFix">
     <!-- Linking  -->
-    <div class="context">
+    <!-- <div class="context"> -->
 
       <div class="flex sm:space-x-4 flex-col bg-slate-900 text-white  items-center space-y-4  pb-4
       lg:flex-row space-x-4 justify-between pl-8 pr-8">
@@ -10,19 +10,25 @@
     <div>
       <h1 class="text-xl text-center md:mt-5">CONTACT US</h1>
       <div class="mt-4 flex flex-col space-y-2 text-slate-400 text-sm items-center">
-        <h1>PHONE : 7578787832</h1>
-        <h1>EMAIL : venturetank@gmail.com</h1>
+        
+        <a href="tel: +917578787832">
+          <h1>PHONE : 7578787832</h1>
+        </a>
+
+        <a href="mailto:venturetank@gmail.com">
+          <h1>EMAIL : venturetank@gmail.com</h1>
+        </a>
       </div>
     </div>
 
     <div>
-      <h1 class="text-xl text-center ">MENU</h1>
-    <div class="flex flex-col pt-5 space-y-4  text-slate-400 text-sm md:flex-row space-x-4 justify-center md:space-y-0 ">
+      <!-- <h1 class="text-xl text-center ">MENU</h1> -->
+    <div class="flex flex-col pt-5 text-center space-y-4  text-slate-400 text-sm md:flex-row space-x-4 justify-center align-center md:space-y-0 ">
       <a href="#" class="text-center">HOME</a>
-      <a >ABOUT US</a>                                  
-      <a>TIMELINE</a>
-      <a>PRIZES</a>
-      <a class="pb-2">FAQ</a>
+      <a href="#about">ABOUT US</a>                                  
+      <a href="#timeline">TIMELINE</a>
+      <a href="#prizes">PRIZES</a>
+      <a href="#faqs">FAQ</a>
     </div>
     </div>
     
@@ -30,8 +36,12 @@
     <div class="">
       <h1 class="text-xl ">CONNECT WITH US</h1>
       <div class="flex mt-4 space-x-0">
-        <a><img src="" alt="instagram" class="hver h-12 w-20 mx-0" /></a>
-        <img src="" alt="linkedin" class="h-12 w-20" />
+        <a target="_blank" href="https://www.instagram.com/venture_tank/">
+          <img src="../../assets/icons/iconInstagram.svg" alt="instagram" class="hver h-12 w-20 mx-0" />
+        </a>
+        <a target="_blank" href="https://linkedin.com/company/venture-tank/">
+          <img src="../../assets/icons/iconLinkedin.svg" alt="linkedin" class="h-12 w-20" />
+        </a>
       </div>
     </div>
 
@@ -40,13 +50,13 @@
    <div class="bg-slate-900 text-white text-xs flex flex-row justify-center pb-3 ">
      <h1>MADE WITH ❤️ BY TEAM VENTURE TANK</h1>
     </div>
-  </div>
+  <!-- </div> -->
     </footer>
 
   
 
     <!-- ----------------------------------------------- -->
-    <div>
+    <!-- <div>
       <div class="area">
         <ul class="circles">
           <li></li>
@@ -63,7 +73,7 @@
           <li></li>
         </ul>
       </div>
-  </div>
+  </div> -->
 
 </template>
 
@@ -82,20 +92,17 @@ export default {
 
 <style scoped>
 
-
- .hoverr
- {
-  color: #00aced;
-    text-shadow: 0 0 15px #00aced;
-    transition: all 0.5s ease;
- }
-
+/* For margins between footer and faqs */
+.mpFix{
+  margin-top: 64px;
+}
  a:hover{
-  background-color: aqua;
+  /* background-color: aqua; */
+  color: #fff;
  }
 
 /*******************************************************/
-.circles {
+/* .circles {
    position: absolute;
    top: 0;
    left: 0;
@@ -202,5 +209,5 @@ export default {
      opacity: 1;
      border-radius: 100%;
    }
- }
+ } */
 </style>

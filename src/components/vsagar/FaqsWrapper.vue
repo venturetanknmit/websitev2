@@ -1,0 +1,46 @@
+<template>
+    <div id="faqs" class="cf ">
+
+        <div class="mp16">
+            <HeadingText name="FAQs"/>
+        </div>
+        <div class=" cf wFix">
+            
+            
+            <FaqsCode question="What is VENTURE TANK?" answer="Venture tank is an initiative taken by CSE dept of NMIT Bangalore. It is 	an opportunity for many inspiring entrepreneurs with great ideas." />
+            
+            <FaqsCode question="Who can register?" answer="Anyone who is a student of Nitte campus, Yelahanka. No person can participate on behalf of another person. A contestant shall enter the event in accordance with the Rules and Regulations." />
+
+            <FaqsCode question="Will the details and documents that we submit remain confidential?" answer="We ensure 100% confidentiality for the ideas till the last round" />
+            
+            <FaqsCode question="What do I need to have with me during this event?" answer="Participants must carry their own electronic gadgets. If anything is being provided by Venture Tank, will be informed in prior." />
+            
+            <FaqsCode question="Will this event be conducted online or offline?" answer="The first round of idea submission will be online through G-form. The further stages are completely conducted offline." />
+            
+        </div>
+    </div>
+</template>
+
+<script>
+    import FaqsCode from './FaqsCode.vue';
+    import HeadingText from "../HeadingText.vue"
+
+export default {
+    name:"FaqsWrapper",
+    components:{
+        FaqsCode,
+        HeadingText
+    }
+}
+</script>
+
+<style scoped>
+.wFix{
+    width:80%;
+}
+@media (max-width:560px){
+    .wFix{
+    width:96%;
+}
+}
+</style>
