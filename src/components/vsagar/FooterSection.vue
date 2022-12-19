@@ -28,12 +28,12 @@
     <!-- <h1 class="text-xl text-center ">MENU</h1> -->
     <!-- <div class="flex flex-col pt-5 text-center space-y-4 text-slate-400 text-sm md:flex-row lg:space-x-4 justify-center align-center items-center md:space-y-0 "> -->
 
-    <div class="m-4 flex flex-col md:flex-row justify-items-center align-middle lg:mr-10">
-      <a class="m-1" href="#">HOME</a>
-      <a class="m-1" href="#about">ABOUTUS</a>                                  
-      <a class="m-1" href="#timeline">TIMELINE</a>
-      <a class="m-1" href="#prizes">PRIZES</a>
-      <a class="m-1" href="#faqs">FAQs</a>
+    <div class="m-4 flex flex-col text-slate-400 text-sm md:flex-row justify-items-center align-middle lg:mr-10">
+      <a class="m-2" href="#">HOME</a>
+      <a class="m-2" href="#about">ABOUT US</a>                                  
+      <a class="m-2" href="#timeline">TIMELINE</a>
+      <a class="m-2" href="#prizes">PRIZES</a>
+      <a class="m-2" href="#faqs">FAQs</a>
 
     </div>
     </div>
@@ -53,7 +53,7 @@
 
    </div>
    
-   <div class="bg-slate-900 text-white text-xs flex flex-row justify-center pb-3 ">
+   <div class="bg-slate-900 text-white text-xs flex flex-row justify-center pb-3 lg:pl-9">
      <h1>MADE WITH ❤️ BY TEAM VENTURE TANK</h1>
     </div>
   <!-- </div> -->
@@ -97,7 +97,9 @@ export default {
 </script>
 
 <style scoped>
-
+.svgWave{
+  margin-bottom: -2px;
+}
 @media (min-width:720px){
   .svgWave{
     display: none;

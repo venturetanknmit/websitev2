@@ -36,52 +36,49 @@
         <div class="nav">
         
         <!-- Navbar Hamburger start -->
-        <div class="">
-            <!-- Trying hamburger library -->
-            <Slide width="400px" class="">
-            <a id="home" href="#">
-                <span>HOME</span>
-            </a>
-            </Slide>
-        </div>
-        <!-- Navbar Hamburger end -->
-
-        
-         <!-- Navbar Left  start-->
-         <div class="mp8"> 
-            <a href="">
+        <!-- Trying hamburger library -->
+            
+        <!-- Navbar Left  start-->
+        <div class="mp8"> 
+            <a href="/">
                 <img class="h32px" src="../assets/logo.png" alt="Logo"> 
             </a>
         </div>
+        <!-- Navbar Hamburger end -->
+        <div class="mp8">
+             <!-- Navbar Left end -->
+            <Menu right :closeOnNavigation="true" >
+                <a href="#about" class="navLink mp8">ABOUT</a>
+                <a href="#prizes" class="navLink mp8">PRIZES</a>
+                <a href="#timeline" class="navLink mp8">TIMELINE</a>
+                    <a href="#sponsors" class="navLink mp8">SPONSORS</a>
+                    <!-- <a href="#faqs" class="navLink mp8">FAQs</a> -->
+                    <a href="#contactus" class="navLink mp8">CONTACT US</a>
+                </Menu>
+
+                   
+        </div>
+
     </div>
-
-        <!-- Navbar Left end -->
-        <Menu>
-        <a href="#about" class="navLink mp8">ABOUT</a>
-            <a href="#prizes" class="navLink mp8">PRIZES</a>
-            <a href="#timeline" class="navLink mp8">TIMELINE</a>
-            <a href="#sponsors" class="navLink mp8">SPONSORS</a>
-            <!-- <a href="#faqs" class="navLink mp8">FAQs</a> -->
-            <a href="#contactus" class="navLink mp8">CONTACT US</a>
-        </Menu>
-
+    
+   <!-- ---------- -->
     </div>
     <!-- Styling navbar for mobile  end-->
-
-
- 
+    
+    
+    
 
 
 </template>
 
 <script>
 
-// import the CSS transitions you wish to use, in this case we are using `Slide`
-import { Slide, Menu } from 'vue3-burger-menu';  
+// import the CSS transitions you wish to use, in this case we are using `
+import {  Menu } from 'vue3-burger-menu';  
 
 export default {
     components: {
-        Slide,// Register your component
+        // Register your component
         Menu
     },
     setup () {
@@ -103,11 +100,12 @@ export default {
 /* Styles from https://www.npmjs.com/package/vue3-burger-menu */
 
 .bm-burger-button {
-      position: absolute;
-      width: 30px;
+      position: relative;
+      width: 24px;
       height: 24px;
-      left: 16px;
-      top: 18px !important;
+      left: 2px;
+      /* left: 240px !important; */
+      top: 0px !important;
       cursor: pointer;
 
     }
@@ -116,7 +114,7 @@ export default {
     }
     .line-style {
       position: absolute;
-      height: 20%;
+      height: 2px;
       left: 0;
       right: 0;
     }
