@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "v-tank"
+  },
+  "targets": {
+    "v-tank": {
+      "hosting": {
+        "aaa": [
+          "v-tank"
+        ]
+      }
+    }
+  }
+}

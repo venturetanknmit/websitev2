@@ -3,7 +3,7 @@
         <!-- Navbar Left  start-->
         <div class="mp8"> 
             <a href="">
-                <img class="h32px" src="../assets/logo.png" alt="Logo"> 
+                <img class="h32px" src="../assets/logoWithFooterBgText2.png" alt="Logo"> 
             </a>
         </div>
         <!-- Navbar Left end -->
@@ -92,7 +92,7 @@ export default {
 
 <style>
 .navDesktop{
-    box-shadow: 0px 0px 4px 1px var(--blueDark);
+    /* box-shadow: 0px 0px 4px 1px var(--blueDark); */
 }
 .logoSize{
     height: 32px;
@@ -112,7 +112,7 @@ export default {
 
     }
     .bm-burger-bars {
-      background-color: var(--blueDark) !important;
+      background-color: var(--footerBg) !important;
     }
     .line-style {
       position: absolute;
@@ -140,7 +140,7 @@ export default {
       z-index: 1000; /* Stay on top */
       top: 0;
       left: 0;
-      background-color: var(--blueDark) !important; 
+      background-color: var(--footerBg) !important; 
       overflow-x: hidden; /* Disable horizontal scroll */
       padding-top: 60px; /* Place content 60px from the top */
       transition: 0.5s; /*0.5 second transition effect to slide in the sidenav*/

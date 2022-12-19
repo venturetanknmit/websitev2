@@ -72,7 +72,8 @@ export default {
   overflow: hidden;
   border-radius: 16px;
   box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
-  background-color: #212121;
+  /* Change this to see the front of the card's color change */
+  background-color:var(--footerBg);
 }
 
 

@@ -48,6 +48,7 @@ export default {
   /* --bgBlue: #091164; */
   --blueNeutral: #b5d7f8;
   --blueDark: #020859;
+  --footerBg: #0f172a;
 }
 
 html, body{

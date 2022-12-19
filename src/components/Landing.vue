@@ -46,7 +46,7 @@ of Simple CSS Waves-->
 </div>
 </div>
 
-<h2 class="">NMIT'S OWN SHARK TANK</h2>
+<h2 class="f2">THE SHARK TANK OF NMIT</h2>
 
 </div>
     </div>
@@ -74,7 +74,7 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <!--Content starts-->
 <div class="content flex">
     <!-- Content should go here for appearing below the waves !!!!!!! -->
-    <a target="_blank" class="btn mp16 radius8" href="./index2.html">View round 1 results</a>
+    <a target="_blank" class="btn mp16 radius8" href="./resultspage/index2.html">View round 1 results</a>
     <!-- Content should end here!!!!!!! -->
 </div>
 <!--Content ends-->
@@ -99,6 +99,9 @@ export default {
     /* --logoTextInSvg : #09101f; */
     /* --logoTextInSvg : #293654; */
     --logoTextInSvg : #ffffff !important;
+}
+.f2{
+  font-size: 24px;
 }
 .btn{
   background-color: var(--blueDark);

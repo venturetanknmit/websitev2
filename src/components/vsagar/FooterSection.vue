@@ -11,12 +11,12 @@
       <h1 class="text-xl text-center md:mt-5">CONTACT US</h1>
       <div class="mt-4 flex flex-col space-y-2 text-slate-400 text-sm items-center">
         
-        <a href="tel: +917578787832">
-          <h1>PHONE : 7578787832</h1>
+        <a href="tel: +91 7676426879">
+          <h1>PHONE : 7676426879</h1>
         </a>
 
         <a href="mailto:venturetank@gmail.com">
-          <h1>EMAIL : venturetank@gmail.com</h1>
+          <h1> EMAIL : venturetanknmit@gmail.com </h1>
         </a>
       </div>
     </div>
@@ -24,11 +24,11 @@
     <div>
       <!-- <h1 class="text-xl text-center ">MENU</h1> -->
     <div class="flex flex-col pt-5 text-center space-y-4  text-slate-400 text-sm md:flex-row space-x-4 justify-center align-center md:space-y-0 ">
-      <a href="#" class="text-center">HOME</a>
+      <a href="#">HOME</a>
       <a href="#about">ABOUT US</a>                                  
       <a href="#timeline">TIMELINE</a>
       <a href="#prizes">PRIZES</a>
-      <a href="#faqs">FAQ</a>
+      <a href="#faqs">FAQs</a>
     </div>
     </div>
     
