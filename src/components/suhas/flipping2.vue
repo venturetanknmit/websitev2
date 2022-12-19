@@ -1,7 +1,7 @@
 <template>
    
     <div class="card2" >
-		<div class="card__inner2" v-on:mouseover="flip2()">
+		<div class="card__inner2" v-on:mouseenter="flip2()" v-on:mouseleave="flip2()">
 			<div class="card__face2 card__face--front2">
 				<img
               src="./logo/2ndprize-removebg-preview.png"

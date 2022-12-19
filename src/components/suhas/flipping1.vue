@@ -1,6 +1,6 @@
 <template>
    
-    <div class="card1" v-on:mouseover="flip1()">
+    <div class="card1" v-on:mouseenter="flip1()" v-on:mouseleave="flip1()">
 		<div class="card__inner1" >
 			<div class="card__face1 card__face--front1">
 				<img

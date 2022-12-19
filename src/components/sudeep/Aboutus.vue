@@ -39,6 +39,9 @@ export default {
   .pic{
     display: none;
   }
+  .w64{
+    width: 88%;
+  }
 }
 /* .picWrapper{
   width: 32%;
