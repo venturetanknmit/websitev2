@@ -18,10 +18,14 @@ of Simple CSS Waves-->
 <div class="inner-header flex">
     <!-- For content upon waves  -->
 
-    <div class="cf">
+    <div class="cf fixMobile">
+      <div class="mp8 f2">
+        DEPARTMENT OF CSE PRESENTS
+      </div>
 
         <div class="rfw">
             
+          <!-- Venture tank logo -->
             <div class="rf mp8">
                 <img class=" mp8 imgLanding" src="../assets/logo.png" alt="">
             </div>
@@ -46,7 +50,7 @@ of Simple CSS Waves-->
 </div>
 </div>
 
-<h2 class="f2">THE SHARK TANK OF NMIT</h2>
+<h2 class="f2 mp8">THE SHARK TANK OF NMIT</h2>
 
 </div>
     </div>
@@ -74,7 +78,8 @@ viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 <!--Content starts-->
 <div class="content flex">
     <!-- Content should go here for appearing below the waves !!!!!!! -->
-    <a target="_blank" class="btn mp16 radius8" href="./resultspage/index2.html">View round 1 results</a>
+    <a target="_blank" class="btn mp16 radius8" href="https://round1.venturetanknmit.com">Round 1 results</a>
+    <a target="_blank" class="btn mp16 radius8" href="https://results.venturetanknmit.com">Round 2 results</a>
     <!-- Content should end here!!!!!!! -->
 </div>
 <!--Content ends-->
@@ -100,16 +105,25 @@ export default {
     /* --logoTextInSvg : #293654; */
     --logoTextInSvg : #ffffff !important;
 }
+
+.fixMobile{
+  margin-top: 32px;
+}
 .f2{
   font-size: 24px;
 }
+@media (max-width: 560px){
+  .f2{
+    font-size: 16px !important;
+  }
+}
 .btn{
-  background-color: var(--blueDark);
+  background-color: var(--footerBg);
   color: #fff;
 
 }
 .btn:hover{
-box-shadow: 0px 0px 8px 1px var(--blueDark);
+box-shadow: 0px 0px 8px 1px var(--footerBg);
 }
 .logoTxt{
     width:480px;

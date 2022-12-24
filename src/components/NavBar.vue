@@ -100,10 +100,10 @@ export default {
 /* Styles from https://www.npmjs.com/package/vue3-burger-menu */
 
 .bm-burger-button {
-      position: relative;
-      width: 24px;
-      height: 24px;
-      left: 2px;
+      position: relative !important;
+      width: 24px !important;
+      height: 24px !important;
+      left: 2px !important;
       /* left: 240px !important; */
       top: 0px !important;
       cursor: pointer;
@@ -114,8 +114,8 @@ export default {
     }
     .line-style {
       position: absolute;
-      height: 2px;
-      left: 0;
+      height: 2px !important;
+      left: 0 !important;
       right: 0;
     }
     .cross-style {

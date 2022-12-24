@@ -7,7 +7,7 @@
     <SponserSec/>
     <FaqsWrapper/>
     <FooterSection/>
-
+    <!-- <ResultsPage2/> -->
 </template>
 
 <script>
@@ -20,6 +20,7 @@ import TimelineSec from "./components/vishak/timeline.vue"
 import FaqsWrapper from "./components/vsagar/FaqsWrapper.vue"
 import FooterSection from './components/vsagar/FooterSection.vue';
 
+// import ResultsPage2 from './components/ResultsPage2.vue';
 
 export default {
   name: 'App',
@@ -32,7 +33,8 @@ export default {
     TimelineSec,
     FlipMain,
     FooterSection,
-    FaqsWrapper
+    FaqsWrapper,
+    // ResultsPage2
 }
 }
 </script>

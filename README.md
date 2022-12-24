@@ -15,6 +15,7 @@ This is the official github repository for [venturetanknmit](https://venturetank
 2. Start the development server `npm run serve` or `yarn serve`
 
 3. Visit [localhost:8080](http://localhost:8080)
+
 ## Tech Stack
 
 | Technology             | Official Link                                                                |
@@ -24,3 +25,8 @@ This is the official github repository for [venturetanknmit](https://venturetank
 | vue3-burger-menu | https://www.npmjs.com/package/vue3-burger-menu |
 
 ## Contributors
+
+[Sudeep S](https://github.com/Sudeep2k2)
+[Suhas N H](https://github.com/suhas991)
+[Vishak](https://github.com/vishakrao)
+[Vishal Sagar](https://github.com/Vishalsagar26)

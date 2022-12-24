@@ -1,7 +1,7 @@
 <template>
    
-    <div class="card3" >
-		<div class="card__inner3" v-on:mouseenter="flip3()" v-on:mouseleave="flip3()">
+    <div class="card3" v-on:mouseenter="flip3()" v-on:mouseleave="flip3()">
+		<div class="card__inner3">
 			<div class="card__face3 card__face--front3">
 				<img
               src="./logo/3rdprize-removebg-preview.png" alt=""/>

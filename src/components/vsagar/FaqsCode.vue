@@ -17,7 +17,7 @@
                     </button>
                     
                   
-                    <Transition name="bounce">
+                    <Transition name="fade">
                         <p v-if="clicked" class="text-gray-500 mt-2 text-sm">
                           {{ answer }}
                         </p>
@@ -52,6 +52,22 @@ export default {
 </script>
 
 <style lang="css" scoped>
+/*From tailwind for fade*/
+/* .fade-enter-active, */
+.fade-enter-active{
+@apply transition-all duration-100 ease-in;
+}
+.fade-leave-active {
+  @apply transition-opacity duration-300 ease-out;
+}
+.fade-leave-active {
+  @apply opacity-0;
+}
+.fade-enter-active {
+  @apply opacity-5;
+}
+
+/*From tailwind for fade*/
 .widthFix{
     width: 56%;
 }
