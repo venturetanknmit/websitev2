@@ -15,7 +15,7 @@
             
             <FaqsCode question="What do I need to have with me during this event?" answer="Participants must carry their own electronic gadgets. If anything is being provided by Venture Tank, will be informed in prior." />
             
-            <FaqsCode question="Will this event be conducted online or offline?" answer="The first round of idea submission will be online through G-form. The further stages are completely conducted offline." />
+            <FaqsCode question="Will this event be conducted online or offline?" answer="The first round of idea submission will be online through Google form. The further stages are completely conducted offline." />
             
         </div>
     </div>
