@@ -30,3 +30,8 @@ This is the official github repository for [venturetanknmit](https://venturetank
 [Suhas N H](https://github.com/suhas991)
 [Vishak](https://github.com/vishakrao)
 [Vishal Sagar](https://github.com/Vishalsagar26)
+
+## Danger Zone
+
+For people using this repository,
+Please do not merge any pull request or commit from remote origins directly to the main branch as it is in sync with github actions workflow for automatic deployments.
