@@ -54,6 +54,14 @@
       class="imgfix"
     />
   </div>
+
+  <div class="">
+    <img
+      src="./logo/AoPS.png"
+      alt=""
+      class="imgfix"
+    />
+  </div>
 </div>
 </template>
 
